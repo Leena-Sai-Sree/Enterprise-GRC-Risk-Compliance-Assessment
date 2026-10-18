@@ -1,0 +1,5 @@
+Finding,Severity,Action,Owner,Due date,Status,Go-live blocker
+TPRM-01,High,Execute and approve BAA,Daniel Brooks / Elena Ruiz,2026-11-07,Open,Yes
+TPRM-02,High,Validate current subprocessors and required contractual flow-down,Elena Ruiz,2026-11-07,Open,Yes
+TPRM-03,Moderate,Obtain full SOC 2 report and bridge letter; review exceptions,Maya Chen,2026-11-14,Open,Security assurance gate - unresolved requires CISO conditional risk decision; no unconditional approval
+TPRM-04,Moderate,Review dated disaster recovery exercise results,Noah Williams,2026-11-21,Open,Security assurance gate - unresolved requires CISO conditional risk decision; no unconditional approval

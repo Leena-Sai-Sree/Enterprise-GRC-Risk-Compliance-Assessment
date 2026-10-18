@@ -1,0 +1,9 @@
+Control ID,Question,Synthetic vendor response,Evidence status,Assessor disposition
+VQ-01,Is a BAA executed before processing ePHI?,Draft shared; signature pending,Missing,Fail - go-live blocker
+VQ-02,Is ePHI encrypted in transit and at rest?,TLS 1.2+ and AES-256 claimed,Attestation only,Unverified
+VQ-03,Is MFA enforced for administrator access?,Yes; SSO plus MFA claimed,Attestation only,Unverified
+VQ-04,Is a current subprocessor inventory maintained?,Inventory dated 2025-12-01,Stale document,Gap
+VQ-05,Is a current SOC 2 Type II report available?,Cover summary supplied; full report withheld,Insufficient,Gap
+VQ-06,Are incidents communicated under contractually defined timeframes?,Proposed 48-hour notice after confirmation,Draft contract,Needs legal review
+VQ-07,Are backup and recovery procedures exercised?,Annual test claimed,No test report,Gap
+VQ-08,Are access rights recertified?,Quarterly claimed,No sample evidence,Unverified
