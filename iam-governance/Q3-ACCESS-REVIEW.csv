@@ -1,0 +1,7 @@
+Finding ID,Review date,Synthetic identity,Role,Entitlement,Decision,Reviewer rationale,Decision date,Closure date,Simulated disposition,Reviewer,Evidence ID
+IAM-01,2026-10-09,Ethan Miller,Platform Engineer,AWS-Production-Admin,Remove,Transferred to QA 2026-09-15; no production admin justification,2026-10-10,2026-10-14,Closed in simulated exercise,Aisha Patel,EV-IAM-01
+IAM-02,2026-10-09,Sofia Turner,Former Contractor,Salesforce-Standard,Remove,Contract ended 2026-09-30; access remained active,2026-10-09,2026-10-10,Closed in simulated exercise,Noah Williams,EV-IAM-02
+IAM-03,2026-10-09,Marcus Lee,SRE Lead,AWS-Production-Admin,Retain,Active production incident response responsibility,2026-10-09,2026-10-09,Approved,Aisha Patel,EV-IAM-03
+IAM-04,2026-10-09,Lina Gomez,Billing Analyst,Billing-ReadOnly,Retain,Required for claims reconciliation,2026-10-09,2026-10-09,Approved,Grace Foster,EV-IAM-04
+IAM-05,2026-10-09,Priya Shah,SOC Lead,Sentinel-Security-Admin,Retain,Required for SOC operations; privileged MFA assumed,2026-10-09,2026-10-09,Approved,Olivia Reed,EV-IAM-05
+IAM-06,2026-10-09,Jordan Kim,Developer,AWS-Production-Admin,Remove,No documented business need for standing admin role,2026-10-10,2026-10-14,Closed in simulated exercise,Aisha Patel,EV-IAM-06
