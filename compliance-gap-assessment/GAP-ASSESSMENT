@@ -1,0 +1,22 @@
+# Selected HIPAA / SOC 2 Control Gap Assessment
+**Version 1.0 | Assessment date 2026-10-18 | Reviewer Maya Chen, GRC Manager | Sponsor Olivia Reed, CISO**
+
+## Objective and method
+Perform a **targeted nine-control design and evidence readiness assessment**, not a comprehensive HIPAA audit or SOC 2 readiness certification. Source mappings are directional, not exhaustive; confirm final applicability and exact SOC 2 criterion language with an auditor. HIPAA citations refer to the currently applicable rule text for this scenario; rule changes and effective dates require legal validation before real-world use.
+
+## Executive result
+Nine objectives assessed: **0 verified effective; 6 Partial; 1 Gap; 2 Designed - unverified**. Two High-priority issues: access lifecycle governance (GAP-01) and vendor BAA/oversight (GAP-04). Seven Moderate-priority issues remain. These classifications reflect a fictional fact pattern and absent operating evidence, not tested controls.
+
+## Approach
+Control objectives selected from risk register and ePHI data flows; assumed implementation reviewed against synthetic interview narratives, sample access review and vendor questionnaire; documented design or operating evidence deficiencies; assigned remediation and owners. Evidence IDs are references to *expected* artifacts, not attached authentic logs, screenshots or vendor documents.
+
+## Key observations
+- **GAP-01:** Sample access review shows three of six permissions selected for removal, suggesting unreliable mover/leaver workflows; next step is population reconciliation and removal evidence.
+- **GAP-04:** No signed BAA for proposed messaging subprocessor; ePHI go-live is blocked until contractual and oversight checks are complete.
+- **GAP-06:** Backup configuration without dated restore test is insufficient to support an operating effectiveness assertion.
+
+## Management decision (fictional)
+On 2026-10-18, Olivia Reed directed weekly reporting on High-priority gaps and monthly reporting on remaining actions. No compliance or attestation claim is authorized until implementation and evidence testing are completed.
+
+## Limitations
+This is a deliberately bounded assessment. It excludes complete HIPAA administrative, physical and technical safeguard coverage, all SOC 2 criteria and any independent auditor opinion. It is not a legal opinion.
