@@ -1,0 +1,10 @@
+Finding ID,Control objective,HIPAA mapping (illustrative),SOC 2 mapping (family; verify exact criterion),Assessment status,Gap type,Scenario observation,Evidence references (synthetic),Priority,Owner,Due date,Linked risks
+GAP-01,Access lifecycle and privilege review,45 CFR 164.308(a)(3); 164.308(a)(4); 164.312(a),CC6 (security),Partial,Design and operation,Role-change and exit access revocations inconsistent in six synthetic samples,EV-IAM-01; EV-IAM-02; EV-IAM-06,High,Noah Williams,2026-11-14,R-001; R-011
+GAP-02,S3 configuration monitoring,45 CFR 164.312(a); 164.308(a)(1),CC6; CC7,Partial,Operating evidence,AWS Config alert response not tested,EV-AWS-01,Moderate,Aisha Patel,2026-11-21,R-003
+GAP-03,Service account secret management,45 CFR 164.312(a); 164.312(c),CC6; CC8,Partial,Design,Long-lived CI/CD tokens remain in use,EV-DEV-01,Moderate,Aisha Patel,2026-12-12,R-006
+GAP-04,Vendor BAA and oversight,45 CFR 164.308(b); 164.314(a),CC9,Gap,Design and evidence,Unsigned BAA and incomplete subprocessor review,EV-TPRM-01; EV-TPRM-02,High,Elena Ruiz,2026-11-07,R-002; R-012
+GAP-05,Incident escalation and notification,45 CFR 164.308(a)(6); 164.410 (as applicable),CC7,Partial,Operating evidence,No tabletop proving escalation and contractual notifications,EV-IR-01,Moderate,Priya Shah,2026-11-28,R-005
+GAP-06,Backup restoration testing,45 CFR 164.308(a)(7),A1 (if scoped); CC7,Partial,Operating evidence,Automated backup jobs exist but no recent restore exercise record,EV-BCP-01,Moderate,Noah Williams,2026-12-05,R-004; R-007
+GAP-07,Endpoint encryption assurance,45 CFR 164.310(d); 164.312(a),CC6,Designed - unverified,Operating evidence,Encryption baseline claimed; compliance export not provided,EV-END-01,Moderate,Noah Williams,2026-11-28,R-008
+GAP-08,Vulnerability remediation,45 CFR 164.308(a)(1),CC7,Partial,Operating evidence,Patch exceptions lack consistent sign-off,EV-VM-01,Moderate,Aisha Patel,2026-11-21,R-009
+GAP-09,Audit log retention and retrieval,45 CFR 164.312(b); 164.308(a)(1),CC7,Designed - unverified,Operating evidence,No documented sample retrieval from 12-month archive,EV-LOG-01,Moderate,Priya Shah,2026-12-12,R-010

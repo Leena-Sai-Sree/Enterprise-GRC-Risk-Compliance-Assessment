@@ -1,0 +1,10 @@
+Action ID,Finding,Remediation,Owner,Due date,Priority,Status as of 2026-10-17,Validation criterion
+CAP-01,GAP-01,Reconcile HR role changes/departures and implement privileged review workflow,Noah Williams,2026-11-14,High,Open,20 sampled accounts; dated owner decisions and proof of revocation
+CAP-02,GAP-02,Test public-access alerts and enforce org-level preventive guardrail,Aisha Patel,2026-11-21,Moderate,Open,Recorded configuration check and alert test
+CAP-03,GAP-03,Replace long-lived deploy tokens with OIDC where supported,Aisha Patel,2026-12-12,Moderate,Open,Workflow config and rotated credential inventory
+CAP-04,GAP-04,Execute BAA and complete subprocessor diligence before ePHI transfer,Elena Ruiz,2026-11-07,High,Open,Signed BAA and approved vendor review
+CAP-05,GAP-05,Conduct incident tabletop including BAA notification decision tree,Priya Shah,2026-11-28,Moderate,Open,Exercise minutes and corrective actions
+CAP-06,GAP-06,Conduct documented RDS recovery exercise,Noah Williams,2026-12-05,Moderate,Open,Recovery report with measured RTO/RPO
+CAP-07,GAP-07,Export encryption compliance and test remote wipe,Noah Williams,2026-11-28,Moderate,Open,Device compliance export and test record
+CAP-08,GAP-08,Review critical patch exceptions weekly with CISO escalation,Aisha Patel,2026-11-21,Moderate,Open,Signed exception report and SLA metrics
+CAP-09,GAP-09,Test retrieval of 12-month security log archive,Priya Shah,2026-12-12,Moderate,Open,Timestamped retrieval demonstration
