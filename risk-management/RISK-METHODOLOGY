@@ -1,5 +1,5 @@
 # Enterprise Risk Assessment Methodology
-**Version 1.0 | Effective in simulation: 2026-10-17 | Process owner: Maya Chen, GRC Manager**
+**Version 1.0 | Effective in simulation: 2026-10-18 | Process owner: Maya Chen, GRC Manager**
 
 ## Assessment basis
 Assets and risk statements cover production AWS workloads, ePHI, identity, software delivery, third parties and incident response. All control claims are **assumed** and not independently tested. Risk owners are accountable for remediation; the GRC Manager maintains the register.
