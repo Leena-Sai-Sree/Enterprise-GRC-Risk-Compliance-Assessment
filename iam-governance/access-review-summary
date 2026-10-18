@@ -1,0 +1,8 @@
+# Q3 2026 Privileged and Business Application Access Review
+**Synthetic sample | Review performed in scenario: 2026-10-09 | Report date: 2026-10-17**
+
+Six fictional entitlements sampled: three retained with business justification; three marked for removal. All three removals are **marked closed within the fictional exercise**, not verified in any real identity platform. The sample reveals an access lifecycle control design weakness: role changes and contractor exits did not reliably trigger timely revocation.
+
+**Decision:** CISO Olivia Reed assigned IT Director Noah Williams to reconcile HR lifecycle feeds and VP Engineering Aisha Patel to perform monthly AWS privileged access reviews with quarterly formal certification and documented evidence by **2026-11-14**. GRC will sample 20 production identities in the next review. Associated risks: R-001 and R-011. See EV-IAM-01 through EV-IAM-06 in the synthetic evidence index.
+
+**Boundary:** Six selected records cannot support a population-wide operating effectiveness conclusion. Evidence records describe expected artifacts rather than actual exports or screenshots.
