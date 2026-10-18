@@ -1,0 +1,28 @@
+# Third-Party Security Assessment | CareMessage Cloud (fictional)
+**Assessment ID TPRM-2026-004 | Date: 2026-10-17 | Assessor: Maya Chen, GRC Manager | Business owner: Grace Foster, VP Customer Operations**
+
+## Service and data flow
+CareMessage Cloud is a fictional U.S. patient reminder and appointment messaging SaaS provider. Nexora would send patient names, mobile numbers, appointment times and clinic identifiers through a documented API; the vendor would process ePHI as a subcontractor business associate. Estimated criticality: High due to PHI handling and appointment disruption potential.
+
+## Documents reviewed (synthetic)
+- Vendor security questionnaire v1, received 2026-10-08 (responses in CSV).
+- SOC 2 Type II report cover summary, fictional report period ending 2026-06-30; full report and exceptions not provided.
+- Draft BAA, unsigned as of 2026-10-17.
+- Subprocessor inventory, last revised 2025-12-01.
+- Incident response summary dated 2026-04-05.
+
+## Findings and assessment
+**TPRM-01 High:** No executed BAA. HIPAA-related contractual safeguards must be resolved before the proposed ePHI exchange. **TPRM-02 High:** No current subprocessor inventory or documented flow-down assurance. **TPRM-03 Moderate:** SOC 2 report and bridge letter not supplied for review; operating effectiveness cannot be concluded. **TPRM-04 Moderate:** Vendor reports annual disaster recovery testing but supplied no dated test evidence.
+
+## Risk disposition
+**Conditional rejection / no ePHI go-live** as of 2026-10-17. Procurement must not authorize production patient data exchange until an executed BAA and current subprocessor due diligence are reviewed and approved by Legal and Security. GRC can recommend approval only after evidence validation; business ownership does not override required contract controls. Residual risk is provisionally **High**, pending independent evidence.
+
+## Next actions
+Daniel Brooks (Procurement) obtains executed BAA by 2026-11-07; Elena Ruiz (Legal) verifies subprocessor terms by 2026-11-07; Maya Chen (GRC) reviews full SOC 2 report and bridge letter by 2026-11-14; Noah Williams (IT) reviews DR evidence by 2026-11-21. Linked risks: R-002 and R-012.
+
+**Limitations:** This is a simulated vendor review. No real vendor questionnaire or assurance report was examined.
+
+## Approval gates and risk authority
+**Mandatory contractual ePHI go-live gates:** Legal must verify an executed BAA, current subprocessor inventory, applicable flow-down terms, and the intended data flow. No business risk acceptance can waive these requirements.
+
+**Additional security assurance gates:** GRC must review the full SOC 2 report, period coverage, exceptions and bridge letter (or approved alternative assurance), and IT must assess dated recovery-test evidence. If either remains unresolved, the vendor cannot receive an unconditional security assurance approval. Any conditional launch recommendation requires documented compensating controls, expiry, monitoring and CISO approval of the remaining security risk; Legal must separately confirm contractual eligibility. A high residual risk requires CISO approval under the risk methodology, and the business owner acknowledges operational impact. As of 2026-10-17, none of these approvals has been granted and ePHI go-live remains blocked.
