@@ -1,0 +1,32 @@
+# Enterprise Risk Assessment Methodology
+**Version 1.0 | Effective in simulation: 2026-10-17 | Process owner: Maya Chen, GRC Manager**
+
+## Assessment basis
+Assets and risk statements cover production AWS workloads, ePHI, identity, software delivery, third parties and incident response. All control claims are **assumed** and not independently tested. Risk owners are accountable for remediation; the GRC Manager maintains the register.
+
+## Rating rubric
+Likelihood: 1 Rare (exceptional), 2 Unlikely, 3 Possible, 4 Likely, 5 Almost certain (expected repeatedly). Impact: 1 Negligible, 2 Minor, 3 Moderate, 4 Major (material operational or contractual disruption), 5 Severe (potential widespread ePHI exposure or prolonged critical outage). Impact is the highest reasonable impact across confidentiality, integrity, availability, regulatory and financial dimensions.
+
+**Score = Likelihood × Impact**. Bands: Low 1–4; Moderate 5–9; High 10–16; Critical 17–25. Residual ratings use *separate, explicitly recorded* post-control likelihood and impact; no arbitrary percentage discount is applied. Inherent scores exclude controls; residual scores assume the listed controls work as described. A control with missing operating evidence must be marked unverified and cannot be represented as tested.
+
+## Governance
+- Critical: immediate escalation to CISO; treatment plan within 5 business days; CISO and CEO approve any acceptance.
+- High: plan within 10 business days; CISO approves acceptance; monthly progress review.
+- Moderate: business owner approves acceptance with GRC concurrence; quarterly review.
+- Low: owner monitors; semiannual review.
+- Open actions are due on the recorded dates; overdue actions escalate to CISO.
+- Reassess upon major incidents, significant system/vendor changes, or at least annually.
+
+## Example: R-001
+Inherent likelihood 4 × impact 5 = **20 Critical**. Assumed MFA, CloudTrail and partial permission boundaries reduce residual likelihood to 3, while potential ePHI impact remains 5; residual **15 High**. The rating is a scenario judgment pending evidence testing, not a validated finding.
+
+## Limitations
+Risk scenarios and rating judgments are illustrative. HIPAA requires risk analysis appropriate to the entity; this sample is not a substitute for a complete ePHI risk analysis. Scoring is not actuarial and is not a compliance determination.
+
+## Evidence Assessment Methodology
+- **Assumed control design:** A control described in the scenario, without independent implementation or effectiveness proof; not a validated control.
+- **Synthetic scenario observation:** A fabricated, clearly labeled sample finding used to demonstrate assessment logic; not a real system export.
+- **Missing operating evidence:** No dated, attributable test or operating record is available; control effectiveness remains unverified.
+- **Validated control effectiveness:** Requires defined test procedures, an appropriate sample or period, source records, exceptions, reviewer sign-off and reproducible results. This portfolio contains no real validated control effectiveness claims.
+
+All residual scores are **provisional scenario estimates** and must be recalculated if design verification or operating tests contradict assumed controls. Missing evidence is not evidence of effectiveness. The evidence index records gaps rather than substantiating real-world control operation.
